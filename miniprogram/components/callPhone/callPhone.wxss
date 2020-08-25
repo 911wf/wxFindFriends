@@ -1,0 +1,7 @@
+/* components/callPhone/callPhone.wxss */
+.iconfont {
+  font-size: 50rpx;
+  color: red;
+  margin-left: 35rpx;
+
+}

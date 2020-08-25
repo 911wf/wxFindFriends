@@ -1,0 +1,9 @@
+/* miniprogram/pages/ediltUserinfo/head/head.wxss */
+.changeHead button{
+  width: 100%;
+}
+.changeHead image{
+  width: 100%;
+  height: 400rpx;
+  border: 1px solid black;
+}

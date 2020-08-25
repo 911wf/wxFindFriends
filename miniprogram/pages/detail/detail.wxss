@@ -1,0 +1,26 @@
+/* miniprogram/pages/detail/detail.wxss */
+.detail{
+  background-color: #e0eee8;
+}
+.detail button{
+  width: 100%;
+}
+.detail .detail-nickName{
+  width: 100%;
+  height: 120rpx;
+  background-color: #eedeb0;
+  display: flex;
+  align-items: center;
+}
+.detail .detail-head{
+  width: 100%;
+  height: 600rpx;
+  background-color: #758a99;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.detail .detail-head image{
+  width: 100%;
+  height: 100%;
+}

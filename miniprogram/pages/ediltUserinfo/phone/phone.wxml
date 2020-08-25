@@ -1,0 +1,5 @@
+<!--miniprogram/pages/ediltUserinfo/phone/phone.wxml-->
+<view class="phoneSetting">
+  <button bindtap="handelBtn">设置电话号码</button>
+  <input type="number" value="{{phoneNumber}}" bindinput="settingPhone"></input>
+</view>

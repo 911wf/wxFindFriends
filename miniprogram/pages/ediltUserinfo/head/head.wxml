@@ -1,0 +1,6 @@
+<!--miniprogram/pages/ediltUserinfo/head/head.wxml-->
+<view class="changeHead">
+  <button open-type="getUserInfo" bindgetuserinfo="nochange">使用微信头像</button>
+  <button bindtap="upPhoto">更改头像</button>
+  <image src="{{imgUrl}}"></image>
+</view>

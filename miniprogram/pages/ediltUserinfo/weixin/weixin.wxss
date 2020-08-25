@@ -1,0 +1,4 @@
+/* miniprogram/pages/ediltUserinfo/weixin/weixin.wxss */
+.weixin input{
+  border: 1px solid black;
+}

@@ -1,0 +1,7 @@
+/* miniprogram/pages/ediltUserinfo/signature/signature.wxss */
+button{
+  width: 100%;
+}
+input{
+  border: 1px solid black;
+}

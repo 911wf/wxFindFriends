@@ -1,0 +1,4 @@
+/* miniprogram/pages/ediltUserinfo/phone/phone.wxss */
+.phoneSetting input{
+  border: 1px solid black;
+}

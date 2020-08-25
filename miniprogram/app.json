@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/near/near",
+    "pages/user/user",
+    "pages/message/message",
+    "pages/ediltUserinfo/ediltUserinfo",
+    "pages/detail/detail",
+    "pages/ediltUserinfo/weixin/weixin",
+    "pages/ediltUserinfo/signature/signature",
+    "pages/ediltUserinfo/phone/phone",
+    "pages/ediltUserinfo/name/name",
+    "pages/ediltUserinfo/location/location",
+    "pages/ediltUserinfo/head/head",
+    "pages/friendList/friendList"
+  ],
+  "window": {
+    "backgroundColor": "#7fecad",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7fecad",
+    "navigationBarTitleText": "喵星人miao",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "images/tabBar/首页.png",
+        "selectedIconPath": "images/tabBar/首页a.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/tabBar/附近.png",
+        "selectedIconPath": "images/tabBar/附近a.png",
+        "pagePath": "pages/near/near",
+        "text": "附近"
+      },
+      {
+        "iconPath": "images/tabBar/聊天.png",
+        "selectedIconPath": "images/tabBar/聊天a.png",
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "iconPath": "images/tabBar/我的.png",
+        "selectedIconPath": "images/tabBar/我的a.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+    },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

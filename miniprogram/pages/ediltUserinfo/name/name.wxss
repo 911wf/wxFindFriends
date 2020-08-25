@@ -1,0 +1,12 @@
+/* miniprogram/pages/ediltUserinfo/name/name.wxss */
+.changeName{
+  width: 100%;
+}
+.changeName button{
+  width: 100%;
+  margin-top: 10rpx;
+}
+.changeName input{
+  border: 1px solid black;
+  height: 75rpx;
+}
